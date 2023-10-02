@@ -1,0 +1,4 @@
+1 pass lenthg min-max
+2 update the home page after login
+3 list out all the tables
+4 client side 1 module same for admin side 

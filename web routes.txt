@@ -1,0 +1,35 @@
+// Route::post('/loginshop',[\App\Http\Controllers\ShopKeeperController::class,'loginUser'])->name('login1');1 1
+// Route::get('/shopdashboard', [\App\Http\Controllers\ShopKeeperController::class, 'dashboard']);2 2
+// Route::get('/shopeup',[\App\Http\Controllers\ShopKeeperController::class,'index']);3 3
+// Route::post('/indexshop',[\App\Http\Controllers\ShopKeeperController::class,'storedata']);4 4
+// Route::get('/signup',[\App\Http\Controllers\SignUpcontroller::class,'index']);511
+// Route::post('/index',[\App\Http\Controllers\SignUpcontroller::class,'store'])->10name('store');6
+// Route::get('/view',[\App\Http\Controllers\signUpController::class,'view']);7 9
+// Route::post('/login',[\App\Http\Controllers\SignUpController::class,'loginUser'])->name('login');8 8
+// Route::post('/wheels',[\App\Http\Controllers\WheelsUploadController::class,'store']);9
+// Route::get('/imgview',[\App\Http\Controllers\WheelsUploadController::class,'show']);10
+// Route::get('/edit/{id}',[\App\Http\Controllers\SignUpController::class,'edit']);11 5
+// Route::put('/update/{id}',[\App\Http\Controllers\SignUpController::class,'update']);13 6
+// Route::get('/delrec/{id}',[\App\Http\Controllers\SignUpController::class,'del']);14 7
+
+// Route::get('/editshop/{id}',[\App\Http\Controllers\ShopKeeperController::class,'edit']);15 5
+// Route::put('/update/{id}',[\App\Http\Controllers\ShopKeeperController::class,'update']);16 6
+// Route::get('/delshop/{id}',[\App\Http\Controllers\ShopKeeperController::class,'del']);17 7
+
+// Route::get('/dashboard', [\App\Http\Controllers\SignUpController::class, 'dashboard']);18 4
+// Route::get('/logout1',[\App\Http\Controllers\SignUpController::class,'logout']);19 3
+// Route::get('/logout',[\App\Http\Controllers\ShopKeeperController::class,'logout']);20 8
+// Route::get('/mail',[\App\Http\Controllers\MailController::class,'index']);21
+// Route::get('/complaints',[\App\Http\Controllers\ComplaintsController::class,'index']);22
+// Route::post('/add_complaints',[\App\Http\Controllers\ComplaintsController::class,'storecomplaints'])->name('add_complaints');23
+// Route::get('/admin',[\App\Http\Controllers\AdminController::class,'index']);24
+// Route::get('/viewcomplaints',[\App\Http\Controllers\ComplaintsController::class,'comview']);25
+// Route::get('/viewmycomplaint/{id}',[\App\Http\Controllers\SignUpController::class,'viewmycomplaints']);262
+// Route::get('/mastercom',[\App\Http\Controllers\MasterComController::class,'index']);27
+// Route::post('/store1',[\App\Http\Controllers\MasterComController::class,'store1'])->name('store1');28
+// Route::get('/view1',[\App\Http\Controllers\ShopKeeperController::class,'view1']);29 9
+
+// Route::post('updateid',[\App\Http\Controllers\MailController::class,'updateids'])->name('updateid');30
+
+
+// Route::get('/mycomp', [\App\Http\Controllers\SignUpController::class, 'mycomp'])->name('mycomp');1
